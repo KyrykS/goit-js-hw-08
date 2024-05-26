@@ -18,12 +18,12 @@ box-sizing: border-box;
 .basicLightbox {
 background: rgba(46, 47, 66, 0.8);
 } 
-img.modal {
-width: 1112px;
-height: 640px;
-}
 img.gallery-image {
 width: 360px;
 height: 200px;
 display: block;
+}
+.basicLightbox__content img.modal {
+  width: 1112px;
+  height: 640px;
 }
